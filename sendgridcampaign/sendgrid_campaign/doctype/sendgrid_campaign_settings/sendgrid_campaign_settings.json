@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: {api_key_name}",
+ "creation": "2024-04-30 10:58:14.300254",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "api_key_section",
+  "api_key_name",
+  "api_key"
+ ],
+ "fields": [
+  {
+   "fieldname": "api_key_section",
+   "fieldtype": "Section Break",
+   "label": "API Key"
+  },
+  {
+   "description": "Must be granted Sendgrid \"Email Activity\", \"Mail Send\", \"Marketing\" permissions",
+   "fieldname": "api_key",
+   "fieldtype": "Small Text",
+   "label": "API Key"
+  },
+  {
+   "fieldname": "api_key_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "API Key Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-04-30 11:09:08.880324",
+ "modified_by": "Administrator",
+ "module": "Sendgrid Campaign",
+ "name": "Sendgrid Campaign Settings",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
